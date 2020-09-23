@@ -1,2 +1,1 @@
-import os
-print(sys.version)
+[print((str(i) * ((i%3!=0) & (i%5!=0))) + ('fizz' * (i%3==0)) + ('buzz' * (i%5==0))) for i in range(1, 101)]
